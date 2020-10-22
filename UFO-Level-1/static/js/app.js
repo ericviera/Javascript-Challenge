@@ -21,3 +21,19 @@ data.forEach(function(ufo_data){
         Cell.text(v);
     })
 })
+
+//Referencing Filter Table button on page
+var fil_btn = d3.select("#filter-btn");
+
+// Referencing inpuit element on page
+var dateTime = d3.select("datetime")
+
+fil_btn.on("click", function(){
+
+// Remove existing table
+d3.select("tbody").html("");
+
+}
+
+)
+
